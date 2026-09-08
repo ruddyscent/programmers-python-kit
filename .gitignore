@@ -206,6 +206,9 @@ __marimo__/
 
 # Additional rules adapted from the supplied Toptal gitignore template.
 
+# Local Korean prose review artifacts
+_workspace/
+
 ### Audio ###
 *.aif
 *.iff
