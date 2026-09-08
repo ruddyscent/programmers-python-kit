@@ -86,6 +86,22 @@ level-1/checkpoint/01-kth-number/
 - Use emojis sparingly when they help navigation or highlight a point; keep
   them out of code blocks.
 
+## Required prose review before committing
+
+- After drafting or revising a Korean post, including learner-facing problem
+  explanations and learning notes, apply the `humanize-korean:humanize-korean`
+  skill before committing. Read its `SKILL.md` and follow its review workflow;
+  ordinary proofreading alone does not satisfy this requirement.
+- Apply the review to the final prose. If the prose changes afterward, review
+  the affected passages again before committing.
+- Preserve technical meaning, problem metadata, code, links, complexity claims,
+  and Checkpoint hint boundaries while polishing the language. Verify that the
+  revised explanation still matches the code and the learner's level.
+- If the skill is unavailable, report the missing dependency and stop before
+  committing the affected post. Do not silently skip the review.
+- This requirement covers Korean posts and learning materials, not code-only
+  changes, configuration files, or this English agent guidance.
+
 ## Problem README structure
 
 Use one top-level title and consistent subordinate headings. Adapt the sections
