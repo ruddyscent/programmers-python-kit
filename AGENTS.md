@@ -54,7 +54,8 @@ level-1/checkpoint/01-kth-number/
 - Name alternatives for their actual benefit: readability, expression style, running time, or memory use. Do not call a version shorter or faster without checking that claim.
 - Introduce comprehensions, `zip()`, sets, dictionaries, sorting keys, and other new constructs with explanations. Avoid unexplained advanced syntax, clever one-liners, or unnecessary abstraction.
 - Use short, concrete sentences and step-by-step examples. Avoid repetitive boilerplate, translation-like prose, and generic encouragement.
-- Use emojis sparingly when they help navigation or highlight a point; keep them out of code blocks.
+- Use compact ASCII diagrams, flow diagrams, or memory maps when they make a relationship, sequence, branch, or state change easier to understand. Keep them simple, place them in fenced text blocks, and explain the takeaway in prose; do not add decorative diagrams or force one into every lesson. Line breaks that encode a diagram's structure are not prose hard-wrapping.
+- Use emojis actively in learner-facing problem titles and section headings. Assign a consistent emoji to each section role so learners can scan the page quickly, and do not insert emojis into Python examples or identifiers.
 - Do not hard-wrap prose or list items to a target column width. Keep each Markdown paragraph or list item on one source line, and use line breaks only where Markdown structure requires them, such as headings, lists, tables, block quotes, and fenced code.
 
 ## Required prose review before committing
@@ -70,7 +71,7 @@ level-1/checkpoint/01-kth-number/
 Use one top-level title and consistent subordinate headings. Adapt the sections to the problem while retaining the learning context and explanation:
 
 ```markdown
-# 공식 문제명
+# 🧩 공식 문제명
 
 - Programmers ID: ...
 - Official link: ...
@@ -78,27 +79,28 @@ Use one top-level title and consistent subordinate headings. Adapt the sections 
 - Stage: ...
 - Prerequisites: ...
 - Core concepts: ...
-- Status: ...
 
-## 이 문제에서 배우는 것
-## 문제 핵심
-## 먼저 생각해 보기
-## 예제 이해하기
+## 🎯 이 문제에서 배우는 것
+## 🔎 문제 핵심
+## 💭 먼저 생각해 보기
+## 🧪 예제 이해하기
 
-## 풀이 1. 이해하기 쉬운 방법
-### 아이디어
-### Python 코드
-### 코드 해설
-### 시간 복잡도
-### 공간 복잡도
+## 🛠️ 풀이 1. 이해하기 쉬운 방법
+### 💡 아이디어
+### 🐍 Python 코드
+### 📖 코드 해설
+### ⏱️ 시간 복잡도
+### 💾 공간 복잡도
 
-## 풀이 2. Python다운 방법
-## 실수하기 쉬운 점
-## 배운 것
-## 다시 풀어보기
+## ✨ 풀이 2. Python다운 방법
+## ⚠️ 실수하기 쉬운 점
+## ✅ 배운 것
+## 🔁 다시 풀어보기
 
 - [ ] 1주일 뒤 힌트 없이 다시 풀기
 - [ ] 풀이 방법을 말로 설명하기
+
+## 🚀 이어 풀어 볼 문제
 ```
 
 - Include the official problem link in each problem README; stage indexes may link to the local README. Verify problem metadata rather than guessing it.
@@ -106,6 +108,7 @@ Use one top-level title and consistent subordinate headings. Adapt the sections 
 - Omit the optional second solution heading when there is no second solution. When included, explain its idea, code, and relevant tradeoffs as well.
 - Keep code excerpts, variable names, data structures, and prose synchronized.
 - Treat the template as a structure, not completed content: do not leave empty sections or mark a scaffold as solved.
+- End each non-Checkpoint problem README with `## 🚀 이어 풀어 볼 문제` and two or three official Programmers links that practice the same concept or extend it by one small step. Verify every title, ID, and URL; explain the connection without revealing the solution.
 - Follow the Checkpoint restrictions below before publishing solution sections.
 
 ## Python solution rules
