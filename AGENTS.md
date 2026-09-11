@@ -164,6 +164,14 @@ The initial learner workflow is: solve on Programmers, pass the judge, save `sol
 - Commit and push only when explicitly requested. Preserve configured signing.
 - Use concise English Conventional Commit subjects such as `docs:`, `fix:`, `refactor:`, or `chore:` and include a body explaining the changes and rationale.
 
+When completing an authorized GitHub change, follow this order:
+
+1. Push the working branch.
+2. Open a pull request and use squash merge; merge commits and rebase merges are disabled.
+3. After confirming the remote merge, update local `main` with `git pull --rebase`.
+4. Confirm that local `main` matches `origin/main`.
+5. Only then remove the task worktree and delete the local and remote task branches, in that order.
+
 ## Design references
 
 These rules adapt the teaching and maintenance conventions from [`programmers-csharp-kit/AGENTS.md`](https://github.com/ruddyscent/programmers-csharp-kit/blob/HEAD/AGENTS.md) and the Obsidian note `Projects/programmers-python-kit/초기 구상.md` consulted on 2026-09-08. The guidance above is self-contained; working in this repository does not require access to the author's Obsidian vault. Reference documents describe design context, not authorization to execute their pending tasks.
