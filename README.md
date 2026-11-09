@@ -4,7 +4,7 @@ A structured Python learning kit for Programmers Skill Check and coding tests, f
 
 ## 🎯 학습 목표
 
-Python을 처음 배우는 초등학교 5학년 학생을 위한 학습 저장소입니다. 기초 문법부터 차근차근 익혀 프로그래머스 Skill Check Level 1에 도전하고 이후 알고리즘을 배워 Level 2를 준비하도록 돕습니다.
+Python을 처음 배우는 초등학교 5학년 학생을 위한 학습 저장소입니다. 기초 문법부터 차근차근 익혀 프로그래머스 Skill Check Level 1에 도전하고 이후 알고리즘을 배워 Level 2와 Level 3을 준비하도록 돕습니다.
 
 정답을 한 번 맞히는 데서 끝내지 않습니다. 풀이 방법을 자기 말로 설명하고 시간이 지난 뒤에도 힌트 없이 다시 풀 수 있는 것을 목표로 합니다.
 
@@ -31,7 +31,17 @@ Level 1까지의 초기 50문제 다음에는 Level 2 40문제로 알고리즘�
 | [Level 2 Checkpoint](level-2/checkpoint/) | 10 | 10 | 0 | 도움 없이 Level 2 문제 해결하기 |
 | **Level 2 합계** | **40** | **40** | **0** | **Skill Check Level 2 준비** |
 
-전체 학습자료는 90문제입니다. 실제 채점 통과·학습 완료·Skill Check 합격은 학습자의 수행 결과를 확인한 뒤 기록합니다.
+## 🏔️ Level 3으로 이어가기
+
+Level 2 다음에는 Level 3 40문제로 더 큰 입력과 복잡한 조건을 다룹니다. 이분 탐색·두 포인터·유니온 파인드·다익스트라·차이 배열처럼 시간을 줄이는 방법을 Core에서 익히고 Checkpoint에서 혼자 적용해 봅니다.
+
+| 단계 | 문제 수 | 학습자료 | 학습 완료 확인 | 목표 |
+|---|---:|---:|---:|---|
+| [Skill Check Level 3 Core](level-3/) | 30 | 30 | 0 | 힙·그리디·이분 탐색·그래프·최단 경로·DP·누적합 익히기 |
+| [Level 3 Checkpoint](level-3/checkpoint/) | 10 | 10 | 0 | 도움 없이 Level 3 문제 해결하기 |
+| **Level 3 합계** | **40** | **40** | **0** | **Skill Check Level 3 준비** |
+
+전체 학습자료는 130문제입니다. 실제 채점 통과·학습 완료·Skill Check 합격은 학습자의 수행 결과를 확인한 뒤 기록합니다.
 
 ## 🧭 학습 순서
 
