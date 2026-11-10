@@ -20,11 +20,11 @@ Keep the initial curriculum in this order:
 | Level 1 Core | `level-1/` | 25 | Numbers and iteration, number properties, strings, lists and sorting, problem-solving patterns |
 | Level 1 Checkpoint | `level-1/checkpoint/` | 5 | Independent practice before Skill Check |
 
-- Teach Python thinking first; increase algorithm study substantially from Level 2, including hash tables, stacks/queues, sorting, exhaustive search, greedy algorithms, and DFS/BFS.
+- Teach Python thinking first; increase algorithm study substantially from Level 2, including hash tables, stacks/queues, sorting, exhaustive search, greedy algorithms, and DFS/BFS. Level 3 adds binary search, two pointers, union-find, shortest paths, backtracking, difference arrays, and linked structures, with explicit attention to input limits.
 - Order problems by prerequisites and interpretation difficulty, not acceptance rates alone. Explain unfamiliar syntax before relying on it.
 - Identify each problem's prerequisites, core concepts, and review criteria.
 - Check that Prep actually introduces its completion criteria: variables, functions, `return`, conditions, `for`, `while`, `range()`, strings, lists, indexing, slicing, `len()`, `sum()`, `min()`, `max()`, and `sorted()`. Do not assume a topic has been taught merely because it appears in a checklist.
-- Complete the initial 50-problem curriculum before expanding into Levels 2–5, unless the user requests otherwise. The published Level 2 continuation has 30 Core problems and 10 Checkpoint problems (40 total). Levels 3–5 remain plans until explicitly requested.
+- Complete the initial 50-problem curriculum before expanding into Levels 2–5, unless the user requests otherwise. The published Level 2 and Level 3 continuations each have 30 Core problems and 10 Checkpoint problems (40 total per level). Levels 4–5 remain plans until explicitly requested.
 - Do not create all planned directories or solve all problems as a side effect of an unrelated documentation task.
 
 ## Repository layout and naming
@@ -132,13 +132,13 @@ Use one top-level title and consistent subordinate headings. Adapt the sections 
 
 For Level 1, keep these five problems separate and in order: K번째수 (42748), 완주하지 못한 선수 (42576), 폰켓몬 (1845), 모의고사 (42840), 같은 숫자는 싫어 (12906).
 
-- Level 2 has its own 10 Checkpoint problems in the order listed in `level-2/checkpoint/README.md`. Apply the same independent-practice and hint boundaries below; do not mix them into the Level 1 five-problem count.
+- Levels 2 and 3 each have their own 10 Checkpoint problems in the order listed in `level-2/checkpoint/README.md` and `level-3/checkpoint/README.md`. Apply the same independent-practice and hint boundaries below; do not mix them into another level's count or into Core follow-up practice links.
 - The learner first works without prior solutions or solution searches. Python syntax lookup is allowed.
 - Ask the learner to work through an example by hand and explain an approach before coding.
 - Do not reveal answer code, algorithm hints, or solution walkthroughs by default in Checkpoint landing pages or new unsolved problem READMEs. Initially provide metadata, the official link, practice instructions, and reflection prompts.
 - For an unsolved Checkpoint, use only the title, ID, official link, level, and stage as problem metadata. Omit the general README template's prerequisites, core concepts, learning objectives, solution sections, and complexity analysis when they would disclose an approach. The Checkpoint hint boundary takes precedence over the general teaching template.
 - Add solution material after the independent attempt or when explicitly requested. Keep it in a clearly labeled review section or separate linked material so the initial practice view does not immediately expose answers.
-- Record assistance honestly. A guided solution is not an independent pass. Recommend Skill Check Level 1 after its five Checkpoint problems are solved without hints, and Skill Check Level 2 after its ten are solved without hints.
+- Record assistance honestly. A guided solution is not an independent pass. Recommend Skill Check Level 1 after its five Checkpoint problems are solved without hints, Skill Check Level 2 after its ten are solved without hints, and Skill Check Level 3 after its ten are solved without hints.
 
 ## Verification and progress
 
@@ -148,7 +148,7 @@ The initial learner workflow is: solve on Programmers, pass the judge, save `sol
 - For code changes, perform focused syntax and behavior checks using lightweight local calls or assertions with original examples and relevant edge cases. Run existing affected tests if present; do not bypass established checks.
 - Local checks do not prove acceptance by the Programmers judge. State exactly what was verified and what was not. Mark judge acceptance or independent completion only when supported by observed results or the user's report.
 - When adding, moving, or changing a problem's status, update its stage README and the root README's relevant Progress entries. Keep links, numbering, counts, and actual files consistent. Distinguish planned, implemented, accepted, and independently reviewed work rather than conflating them.
-- Count Checkpoint separately from Core. The initial Level 1 total is 20 + 25 + 5 = 50; the Level 2 continuation is 30 + 10 = 40, making 90 published problems overall.
+- Count Checkpoint separately from Core. The initial Level 1 total is 20 + 25 + 5 = 50; the Level 2 and Level 3 continuations are 30 + 10 = 40 each, making 130 published problems overall.
 - For documentation-only changes, review Markdown structure, links, metadata, examples, and consistency. Do not add tests solely for prose changes.
 - After the affected checks and any required independent review pass, broaden or repeat verification only for a new change, failure, or unresolved concern. Reuse applicable results and state their limits.
 - Consider GitHub Actions only when automation is needed; do not add Cloud Build configuration or CI infrastructure merely because a GitHub App is installed.
